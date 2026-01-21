@@ -1,6 +1,6 @@
-# dataset settings
+ # dataset settings
 dataset_type = 'VOCDataset'
-data_root = 'data/VOCdevkit/'
+data_root = '/data2/yangjiangang/fork_code/mmdetection/local_data/object_detection/VOC/VOCdevkit/'
 
 # Example to use different file client
 # Method 1: simply set the data root and let the file I/O module

@@ -10,6 +10,8 @@ from mmengine.runner import Runner
 from mmdet.utils import setup_cache_size_limit_of_dynamo
 
 
+#os.environ['CUDA_VISIBLE_DEVICES']='6,7,8,9'
+
 def parse_args():
     parser = argparse.ArgumentParser(description='Train a detector')
     parser.add_argument('config', help='train config file path')
